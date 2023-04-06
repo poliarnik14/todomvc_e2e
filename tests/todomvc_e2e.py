@@ -1,4 +1,4 @@
-from todomvc_testing.Model import todos
+from todomvc_e2e.todomvc_testing.Model import todos
 
 def test_e2e():
     todos.given_opened('Task 1', 'Task 2')
